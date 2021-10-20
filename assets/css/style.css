@@ -44,7 +44,7 @@ td, th {
     padding: 10px;
 }
 
-p{
+main>p{
     padding: 3%;
     font-size: 5rem;
     display: inline;
@@ -73,7 +73,7 @@ table tr td{
 }
 
 table:nth-of-type(2){
-  padding: 0 0 10% 3%;
+  padding: 0 0 5% 3%;
 }
 
 
@@ -276,15 +276,48 @@ footer a:hover{
     color: red;
 }
 
-main div{
+main>div{
   display: inline-block;
   padding: 10% 0% 5% 25%;
 }
 
-main div:nth-of-type(2){
+main>div:nth-of-type(2){
   padding-right: 15%;
 }
 
-main p:nth-of-type(1), main p:nth-of-type(2){
+main>p:nth-of-type(1), main>p:nth-of-type(2){
   padding: 0 0 0% 21%;
+}
+
+section h3{
+  font-size: 6vh;
+  padding: 0 0 0 1%;
+}
+
+
+.container{
+  margin: 0;
+}
+
+.DivOne{
+  float:left;
+  width:20%;
+  overflow:hidden;
+  padding: 1% 0 0% 3%;
+}
+
+.DivTwo{
+  float:left;
+  width:75%;
+  overflow:hidden;
+  padding: 1% 0 0 0;
+}
+
+section p, article p{
+  font-size: 4vh;
+}
+
+#h3kA{
+  font-size: 6vh;
+  padding: 15% 0 0 1%;
 }
