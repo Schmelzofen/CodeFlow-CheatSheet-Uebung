@@ -251,11 +251,6 @@ table:nth-of-type(2){
     50% { opacity: 0; }
 }
 
-
-body{
-    cursor: url(../img/1.png), auto;
-}
-
 footer{
     position: fixed;
     bottom: 0;
