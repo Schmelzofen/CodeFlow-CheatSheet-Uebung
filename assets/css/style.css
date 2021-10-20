@@ -8,6 +8,7 @@
     text-shadow: 0 0 2px rgba(56, 253, 56, 1);
     background-color: #262622;
     color: rgba(56, 253, 56, 1);
+    scroll-behavior: smooth;
 }
 
 
@@ -242,4 +243,20 @@ table tr td{
 
 body{
     cursor: url(../img/1.png), auto;
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    border-top: 1px solid rgba(56, 253, 56, 1);
+}
+
+footer ul li{
+  font-size: 2rem;
+  margin: 0% 1% 0 1%; 
+}
+
+a:hover{
+    color: red;
 }
